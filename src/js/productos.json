@@ -1,0 +1,142 @@
+[
+    {
+        "id":"camiseta-blanca",
+        "titulo": "Camiseta Blanca",
+        "imagen": "./src/images/hombre/camiseta-blanca.png",
+        "categoria":{
+            "nombre": "Hombres",
+            "id": "hombre"
+        },
+        "precio": 50000
+    },
+    {
+        "id":"camiseta-beige",
+        "titulo": "Camiseta Beige",
+        "imagen": "./src/images/hombre/camisetas-beige.png",
+        "categoria":{
+            "nombre": "Hombres",
+            "id": "hombre"
+        },
+        "precio": 50000
+    },
+    {
+        "id":"camiseta-negra",
+        "titulo": "Camiseta Negra",
+        "imagen": "./src/images/hombre/camiseta-negra.png",
+        "categoria":{
+            "nombre": "Hombres",
+            "id": "hombre"
+        },
+        "precio": 50000
+    },
+    {
+        "id":"sudadera-blanca",
+        "titulo": "Sudadera Blanca",
+        "imagen": "./src/images/hombre/sudadera-blanca.png",
+        "categoria":{
+            "nombre": "Hombres",
+            "id": "hombre"
+        },
+        "precio": 60000
+    },
+    {
+        "id":"sudadera-gris",
+        "titulo": "Sudadera Gris",
+        "imagen": "./src/images/hombre/sudadera-gris.png",
+        "categoria":{
+            "nombre": "Hombres",
+            "id": "hombre"
+        },
+        "precio": 60000
+    },
+    {
+        "id":"sudadera-negra",
+        "titulo": "Sudadera Negra",
+        "imagen": "./src/images/hombre/sudadera-negra.png",
+        "categoria":{
+            "nombre": "Hombres",
+            "id": "hombre"
+        },
+        "precio": 60000
+    },
+    {
+        "id":"enterizo-beige",
+        "titulo": "Enterizo Beige",
+        "imagen": "./src/images/mujer/enterizo-beige.png",
+        "categoria":{
+            "nombre": "Mujeres",
+            "id": "mujer"
+        },
+        "precio": 50000
+    },
+    {
+        "id":"enterizo-negro",
+        "titulo": "Enterizo Negro",
+        "imagen": "./src/images/mujer/enterizo-negro.png",
+        "categoria":{
+            "nombre": "Mujeres",
+            "id": "mujer"
+        },
+        "precio": 45000
+    },
+    {
+        "id":"enterizo-rosado",
+        "titulo": "Enterizo Rosado",
+        "imagen": "./src/images/mujer/enterizo-rosado.png",
+        "categoria":{
+            "nombre": "Mujeres",
+            "id": "mujer"
+        },
+        "precio": 50000
+    },
+    {
+        "id":"licra-larga-beige",
+        "titulo": "Licra Beige",
+        "imagen": "./src/images/mujer/licraLarga-beige.png",
+        "categoria":{
+            "nombre": "Mujeres",
+            "id": "mujer"
+        },
+        "precio": 50000
+    },
+    {
+        "id":"licra-larga-gris",
+        "titulo": "Licra Gris",
+        "imagen": "./src/images/mujer/licraLarga-gris.png",
+        "categoria":{
+            "nombre": "Mujeres",
+            "id": "mujer"
+        },
+        "precio": 50000
+    },
+    {
+        "id":"licra-larga-gris-oscuro",
+        "titulo": "Licra Gris Oscuro",
+        "imagen": "./src/images/mujer/licraLarga-grisOscuro.png",
+        "categoria":{
+            "nombre": "Mujeres",
+            "id": "mujer"
+        },
+        "precio": 50000
+    },
+    {
+        "id":"licra-larga-rosada",
+        "titulo": "Licra Rosada",
+        "imagen": "./src/images/mujer/licraLarga-rosada.png",
+        "categoria":{
+            "nombre": "Mujeres",
+            "id": "mujer"
+        },
+        "precio": 50000
+    },
+    {
+        "id":"top-blanco",
+        "titulo": "Top Blanco",
+        "imagen": "./src/images/mujer/topblanco.png",
+        "categoria":{
+            "nombre": "Mujeres",
+            "id": "mujer"
+        },
+        "precio": 25000
+    }
+]
