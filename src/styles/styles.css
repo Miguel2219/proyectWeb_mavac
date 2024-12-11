@@ -104,8 +104,29 @@ aside {
     box-shadow: 0 -1rem 0 var(--clr-white);
 }
 
+.redes-sociales {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
 
+.icono-red-social {
+    color: var(--clr-white);
+    font-size: 1.25rem;
+    transition: color 0.3s ease;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.icono-red-social:hover {
+    background-color: var(--clr-main-light);
+    color: var(--clr-white);
+}
 .boton-carrito {
     margin-top: 2rem;
 }
