@@ -75,11 +75,21 @@ let productosEnCarrito;
 
 let productosEnCarritoLS = localStorage.getItem("productos-en-carrito");
 
-if (productosEnCarritoLS) {
-    productosEnCarrito = JSON.parse(productosEnCarritoLS);
-    actualizarNumerito();
-} else {
+try {
+    if (productosEnCarritoLS) {
+        productosEnCarrito = JSON.parse(productosEnCarritoLS);
+        
+     
+        if (!Array.isArray(productosEnCarrito)) {
+            throw new Error("No es un array válido");
+        }
+    } else {
+        productosEnCarrito = [];
+    }
+} catch (error) {
+    console.error("Error al parsear productos en carrito:", error);
     productosEnCarrito = [];
+    localStorage.removeItem("productos-en-carrito");
 }
 
 function agregarAlCarrito(e) {
@@ -116,8 +126,13 @@ function agregarAlCarrito(e) {
     }
 
     actualizarNumerito();
-
-    localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
+    if (Array.isArray(productosEnCarrito)) {
+        localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
+    } else {
+        console.error("productosEnCarrito no es un array válido");
+        productosEnCarrito = [];
+    }
+    
 }
 
 function actualizarNumerito() {

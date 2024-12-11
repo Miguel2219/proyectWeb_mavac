@@ -111,6 +111,7 @@ function vaciarCarrito() {
         html: `Se van a borrar ${productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0)} productos.`,
         showCancelButton: true,
         focusConfirm: false,
+        confirmButtonColor: 'rgb(79,134,155)',
         confirmButtonText: 'Sí',
         cancelButtonText: 'No'
     }).then((result) => {
